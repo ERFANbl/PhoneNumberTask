@@ -1,0 +1,24 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.UserPhoneNumberController",
+    "Method": "SaveUserPhoneNumber",
+    "RelativePath": "api/UserPhoneNumber/SavePhoneNumber",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phoneNumber",
+        "Type": "Domain.DTOs.UserPhoneNumberDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

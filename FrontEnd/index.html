@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ورود شماره تلفن</title>
+  <style>
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: "Vazir", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg, #f7fbff, #eef6ff);
+      color:#0b2a44;
+    }
+    .center-wrap{
+      min-height:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+      box-sizing:border-box;
+    }
+
+    .card{
+      background:white;
+      border-radius:12px;
+      box-shadow:0 8px 24px rgba(11,42,68,0.08);
+      padding:18px 22px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      max-width:720px;
+      width:100%;
+    }
+
+    .label{
+      font-size:18px;
+      font-weight:600;
+      white-space:nowrap;
+    }
+
+    form {
+      display:flex;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+      margin:0;
+    }
+
+    input[type="tel"]{
+      padding:10px 12px;
+      font-size:16px;
+      border:1px solid #d7e6f7;
+      border-radius:8px;
+      min-width:220px;
+      outline:none;
+      transition:box-shadow .15s, border-color .15s;
+    }
+    input[type="tel"]:focus{
+      border-color:#7fb3ff;
+      box-shadow:0 4px 10px rgba(31,114,255,0.08);
+    }
+
+    button{
+      padding:10px 16px;
+      font-size:15px;
+      border-radius:8px;
+      border:none;
+      cursor:pointer;
+      background: linear-gradient(180deg,#1765ff,#0b4bd6);
+      color:white;
+      font-weight:600;
+      min-width:96px;
+    }
+    button:disabled{
+      opacity:.65;
+      cursor:not-allowed;
+    }
+
+    .msg{
+      font-size:14px;
+      margin-top:8px;
+      width:100%;
+      text-align:right;
+    }
+    .msg.success{ color: #0b7a3f; }
+    .msg.error{ color: #b4001a; }
+
+    @media (max-width:520px){
+      .card { flex-direction:column; align-items:stretch; }
+      .label{ text-align:center; width:100%; }
+      form{ justify-content:center; }
+      .msg { text-align:center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="center-wrap">
+    <div class="card" role="region" aria-label="فرم وارد کردن شماره تلفن">
+      <div class="label">شماره تلفن خود را وارد کنید</div>
+
+      <form id="phoneForm" autocomplete="tel" novalidate>
+        <label for="phoneInput" class="sr-only" style="display:none">شماره تلفن</label>
+        <input
+          id="phoneInput"
+          name="phone"
+          type="tel"
+          inputmode="tel"
+          placeholder="مثال: +98xxxxxxx"
+          aria-label="شماره تلفن"
+          required
+          pattern="^\+?\d{7,15}$"
+        />
+        <button id="submitBtn" type="submit">ثبت</button>
+
+        <div id="message" class="msg" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const ENDPOINT = "http://localhost:5500/api/UserPhoneNumber/SavePhoneNumber"; 
+
+
+    const form = document.getElementById('phoneForm');
+    const input = document.getElementById('phoneInput');
+    const btn = document.getElementById('submitBtn');
+    const msg = document.getElementById('message');
+
+    function showMessage(text, type = 'success') {
+      msg.textContent = text;
+      msg.className = 'msg ' + (type === 'error' ? 'error' : 'success');
+    }
+
+    function validPhone(value) {
+      const pattern = /^\+?\d{7,15}$/;
+      return pattern.test(value.trim());
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      msg.textContent = '';
+
+      const phone = input.value || '';
+      if (!phone.trim()) {
+        showMessage('لطفاً شماره تلفن را وارد کنید.', 'error');
+        input.focus();
+        return;
+      }
+      if (!validPhone(phone)) {
+        showMessage('فرمت شماره صحیح نیست. حداقل ۷ و حداکثر ۱۵ رقم (با یا بدون +).', 'error');
+        input.focus();
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'در حال ارسال...';
+
+      try {
+        const res = await fetch(ENDPOINT, {
+           method: "POST",
+           headers: {
+               "Content-Type": "application/json"
+            },
+           body: JSON.stringify({
+                PhoneNumber: phone.trim()   
+            })
+        });
+
+        if (!res.ok) {
+          let text;
+          try { text = await res.text(); } catch(_) { text = res.statusText || 'خطا'; }
+          throw new Error('در ارسال به سرور خطا رخ داد: ' + (text || res.status));
+        }
+
+        showMessage('شماره با موفقیت ارسال شد.', 'success');
+        input.value = '';
+      } catch (error) {
+        console.error(error);
+        showMessage('ارسال انجام نشد. لطفاً بعداً تلاش کنید. (' + (error.message || '') + ')', 'error');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'ثبت';
+      }
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        form.dispatchEvent(new Event('submit', { cancelable: true }));
+      }
+    });
+  </script>
+</body>
+</html>

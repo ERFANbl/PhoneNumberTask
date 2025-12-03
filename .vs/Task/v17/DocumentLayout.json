@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\hi_again!\\codes\\Project\\Task\\Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F38A1BC-324A-4FCC-A81C-2D6EBD89893B}|Infrastructure\\Infrastructure.csproj|d:\\hi_again!\\codes\\project\\task\\task\\infrastructure\\integrations\\smssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F38A1BC-324A-4FCC-A81C-2D6EBD89893B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\integrations\\smssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F38A1BC-324A-4FCC-A81C-2D6EBD89893B}|Infrastructure\\Infrastructure.csproj|d:\\hi_again!\\codes\\project\\task\\task\\infrastructure\\repositories\\userphonenumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F38A1BC-324A-4FCC-A81C-2D6EBD89893B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userphonenumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|d:\\hi_again!\\codes\\project\\task\\task\\task\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|solutionrelative:task\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|d:\\hi_again!\\codes\\project\\task\\task\\task\\controllers\\userphonenumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|solutionrelative:task\\controllers\\userphonenumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|d:\\hi_again!\\codes\\project\\task\\task\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|d:\\hi_again!\\codes\\project\\task\\task\\task\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|solutionrelative:task\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|d:\\hi_again!\\codes\\project\\task\\task\\task\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|solutionrelative:task\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CB7330-C8AE-48BD-89C2-F7612C488947}|Application\\Application.csproj|d:\\hi_again!\\codes\\project\\task\\task\\application\\services\\userphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CB7330-C8AE-48BD-89C2-F7612C488947}|Application\\Application.csproj|solutionrelative:application\\services\\userphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|d:\\hi_again!\\codes\\project\\task\\task\\domain\\dtos\\userphonenumberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\userphonenumberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|d:\\hi_again!\\codes\\project\\task\\task\\domain\\interfacses\\services\\iuserphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfacses\\services\\iuserphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|d:\\hi_again!\\codes\\project\\task\\task\\domain\\dbmpdels\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|solutionrelative:domain\\dbmpdels\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{432E2044-D0F2-4662-B11D-F3E0BA2A7B19}|EntityFrameworkCore\\EntityFrameworkCore.csproj|d:\\hi_again!\\codes\\project\\task\\task\\entityframeworkcore\\entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{432E2044-D0F2-4662-B11D-F3E0BA2A7B19}|EntityFrameworkCore\\EntityFrameworkCore.csproj|solutionrelative:entityframeworkcore\\entityframeworkcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|d:\\hi_again!\\codes\\project\\task\\task\\task\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB0482-B5B2-4179-9C77-D06296207AA3}|Task\\WebAPI.csproj|solutionrelative:task\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|d:\\hi_again!\\codes\\project\\task\\task\\domain\\interfacses\\repositories\\iuserphonenumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfacses\\repositories\\iuserphonenumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CB7330-C8AE-48BD-89C2-F7612C488947}|Application\\Application.csproj|d:\\hi_again!\\codes\\project\\task\\task\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1CB7330-C8AE-48BD-89C2-F7612C488947}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|d:\\hi_again!\\codes\\project\\task\\task\\domain\\interfacses\\integrations\\ismssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C12C9B1-B9B1-4823-A61C-D04E875C95FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfacses\\integrations\\ismssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{432E2044-D0F2-4662-B11D-F3E0BA2A7B19}|EntityFrameworkCore\\EntityFrameworkCore.csproj|d:\\hi_again!\\codes\\project\\task\\task\\entityframeworkcore\\configuration\\songifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{432E2044-D0F2-4662-B11D-F3E0BA2A7B19}|EntityFrameworkCore\\EntityFrameworkCore.csproj|solutionrelative:entityframeworkcore\\configuration\\songifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmsSender.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Infrastructure\\Integrations\\SmsSender.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Integrations\\SmsSender.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Infrastructure\\Integrations\\SmsSender.cs",
+              "RelativeToolTip": "Infrastructure\\Integrations\\SmsSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T19:03:36.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhoneNumber.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\DbMpdels\\PhoneNumber.cs",
+              "RelativeDocumentMoniker": "Domain\\DbMpdels\\PhoneNumber.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\DbMpdels\\PhoneNumber.cs",
+              "RelativeToolTip": "Domain\\DbMpdels\\PhoneNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:22:17.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EntityFrameworkCore.csproj",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\EntityFrameworkCore\\EntityFrameworkCore.csproj",
+              "RelativeDocumentMoniker": "EntityFrameworkCore\\EntityFrameworkCore.csproj",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\EntityFrameworkCore\\EntityFrameworkCore.csproj",
+              "RelativeToolTip": "EntityFrameworkCore\\EntityFrameworkCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T20:17:16.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebAPI.csproj",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "Task\\WebAPI.csproj",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\WebAPI.csproj",
+              "RelativeToolTip": "Task\\WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T20:35:13.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\appsettings.json",
+              "RelativeDocumentMoniker": "Task\\appsettings.json",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\appsettings.json",
+              "RelativeToolTip": "Task\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-02T18:06:43.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserPhoneNumberController.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\Controllers\\UserPhoneNumberController.cs",
+              "RelativeDocumentMoniker": "Task\\Controllers\\UserPhoneNumberController.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\Controllers\\UserPhoneNumberController.cs",
+              "RelativeToolTip": "Task\\Controllers\\UserPhoneNumberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:43:14.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Task\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Task\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-02T23:01:05.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserPhoneNumberRepository.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Infrastructure\\Repositories\\UserPhoneNumberRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserPhoneNumberRepository.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Infrastructure\\Repositories\\UserPhoneNumberRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserPhoneNumberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T08:34:54.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserPhoneNumberService.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Application\\Services\\UserPhoneNumberService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserPhoneNumberService.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Application\\Services\\UserPhoneNumberService.cs",
+              "RelativeToolTip": "Application\\Services\\UserPhoneNumberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:33:49.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\Program.cs",
+              "RelativeDocumentMoniker": "Task\\Program.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\Program.cs",
+              "RelativeToolTip": "Task\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:26:21.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserPhoneNumberService.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\Interfacses\\Services\\IUserPhoneNumberService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfacses\\Services\\IUserPhoneNumberService.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\Interfacses\\Services\\IUserPhoneNumberService.cs",
+              "RelativeToolTip": "Domain\\Interfacses\\Services\\IUserPhoneNumberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:39:49.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserPhoneNumberDTO.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\DTOs\\UserPhoneNumberDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\UserPhoneNumberDTO.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\DTOs\\UserPhoneNumberDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\UserPhoneNumberDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:51:27.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserPhoneNumberRepository.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\Interfacses\\Repositories\\IUserPhoneNumberRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfacses\\Repositories\\IUserPhoneNumberRepository.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\Interfacses\\Repositories\\IUserPhoneNumberRepository.cs",
+              "RelativeToolTip": "Domain\\Interfacses\\Repositories\\IUserPhoneNumberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:23:03.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISmsSender.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\Interfacses\\Integrations\\ISmsSender.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfacses\\Integrations\\ISmsSender.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Domain\\Interfacses\\Integrations\\ISmsSender.cs",
+              "RelativeToolTip": "Domain\\Interfacses\\Integrations\\ISmsSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T19:07:23.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Task\\DependencyInjection.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Task\\DependencyInjection.cs",
+              "RelativeToolTip": "Task\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:54:07.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T19:23:49.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SongifyDbContext.cs",
+              "DocumentMoniker": "D:\\hi_again!\\codes\\Project\\Task\\Task\\EntityFrameworkCore\\Configuration\\SongifyDbContext.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore\\Configuration\\SongifyDbContext.cs",
+              "ToolTip": "D:\\hi_again!\\codes\\Project\\Task\\Task\\EntityFrameworkCore\\Configuration\\SongifyDbContext.cs",
+              "RelativeToolTip": "EntityFrameworkCore\\Configuration\\SongifyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:29:01.56Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

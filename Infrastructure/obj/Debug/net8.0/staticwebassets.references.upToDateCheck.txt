@@ -1,0 +1,14 @@
+D:\hi_again!\codes\Project\Task\Task\EntityFrameworkCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\Domain\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\EntityFrameworkCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\Domain\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\EntityFrameworkCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\Domain\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\EntityFrameworkCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\Domain\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\EntityFrameworkCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\Domain\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\EntityFrameworkCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\Domain\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\EntityFrameworkCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\hi_again!\codes\Project\Task\Task\Domain\obj\Debug\net8.0\staticwebassets.build.json
